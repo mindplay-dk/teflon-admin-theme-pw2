@@ -337,3 +337,21 @@ p span.ui-state-error {
 p.PageListSelectName {background-color:#4F87B6; color:white; margin:0 10px 0 0; padding:5px 10px 5px 5px!important; border-radius:5px;}
 p.PageListSelectName .detail{ background-color:#a6b6c9; margin: 0 5px 0 0;padding:5px 10px;}
 
+
+/* override lock icon in page list */
+.PageList .PageListAccessOff a.PageListPage,
+.PageList .PageListAccessOff a.PageListPage:hover
+{
+    background-image:url(images/lock.png) !important;
+    background-repeat:no-repeat !important;
+    padding-right:18px !important;
+    background-position-x:100% !important;
+    background-position-y:50% !important;
+}
+
+/* override unlock icon in page list */
+.PageList .PageListAccessOn a.PageListPage,
+.PageList .PageListAccessOn a.PageListPage:hover {
+	padding-right: 19px !important;
+	background-image: url(images/unlock.png) !important;
+}
