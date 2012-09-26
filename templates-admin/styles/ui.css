@@ -178,9 +178,6 @@ p span.ui-state-error {
 	 * Give the page a lighter/alte rnate color when it has a hidden status
 	 *
 	 */
-	.PageList .PageListStatusHidden {
-	 	background:transparent url(images/icon-doc-hidden.png) 3px 4px no-repeat;
-	 }
 	.PageList .PageListStatusHidden a.PageListPage {
 		color: #a2b4c3;
 
@@ -189,19 +186,6 @@ p span.ui-state-error {
 		color: #428ac4;
 	}
 
-	.PageListID7{
-		background:transparent url(images/icon-trash.png) 3px 4px no-repeat!important;
-	}
-	.PageListID2{
-		background:transparent url(images/icon-admin.png) 2px 4px no-repeat!important;
-	}
-	.PageListID1{
-		background:transparent url(images/icon-home.png) 0px 4px no-repeat!important;
-	}
-
-	.PageListStatusUnpublished {
-		background:transparent url(images/icon-unpublished.png) 0px 4px no-repeat!important;
-	}
 
 
 
@@ -211,7 +195,7 @@ p span.ui-state-error {
 	 * Default color for page list items
 	 *
 	 */
-	.PageListItem {padding:6px 6px 6px 20px;border-bottom:1px solid #ddd; background:transparent url(images/icon-doc2.png) 3px 4px no-repeat;}
+	.PageListItem {padding:6px 6px 6px 6px;border-bottom:1px solid #ddd;}
 	.PageListItem:hover{background-color:#eee;}
 
 	.PageList a.PageListPage{
@@ -225,7 +209,6 @@ p span.ui-state-error {
 		.PageList a.PageListPage:hover {
 			background: none;
 			color: #428ac4;
-			padding:3px 6px!important;
 		}
 
 
@@ -237,19 +220,9 @@ p span.ui-state-error {
 		color: #fff!important;
 		background-color:#4f87b6!important;
 		border-radius:4px;
-		padding-right:6px;
 		padding-left:6px;
 	}
 
-
-	.PageList .PageListAccessOff a.PageListPage,
-	.PageList .PageListAccessOff a.PageListPage:hover {
-		padding-right:15px!important;
-	}
-	.PageList .PageListAccessOn a.PageListPage,
-	.PageList .PageListAccessOn a.PageListPage:hover {
-		padding-right:18px!important;
-	}
 
 /* ------- added by teflon admin theme -------- */
 
@@ -270,7 +243,6 @@ p span.ui-state-error {
 }
 
 .InputfieldPageListSelectMultiple ol li{ padding: 3px; }
-.InputfieldPageListSelectMultiple ol li .ui-icon-trash{ margin: 3px 3px; }
 
 /********************************************************************************************************
  * OVERWRITES PageListSort from ProgressPageList.css
@@ -364,3 +336,4 @@ p span.ui-state-error {
 
 p.PageListSelectName {background-color:#4F87B6; color:white; margin:0 10px 0 0; padding:5px 10px 5px 5px!important; border-radius:5px;}
 p.PageListSelectName .detail{ background-color:#a6b6c9; margin: 0 5px 0 0;padding:5px 10px;}
+
