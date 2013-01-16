@@ -406,10 +406,13 @@ a {
 		padding: 0 0 4px 0;
 		font-size: 18px;
 		line-height: 1.2em;
-		color: #b3311b;
+		color: #508dc0;
 		font-weight:normal!important;
 		border-bottom:1px solid #e9c9c4;
 	}
+    .content h2 a {
+      text-decoration:underline;
+    }
 		.container > h2,
 		.container > form > h2 {
 			margin-top: 0;
