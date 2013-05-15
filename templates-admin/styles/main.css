@@ -220,13 +220,13 @@ a {
 	}
 		#breadcrumb li {
 			font-size: 12px;
-			display: inline;
+			display: inline-block;
 			margin:0;
-			padding: 1px 3px 1px 3px;
 		}
 			#breadcrumb a {
 				color: #b1b8be;
 				float:left;
+				padding: 1px 3px 1px 0px;
 			}
 			#breadcrumb li span{
 				float:left;
